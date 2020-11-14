@@ -11,7 +11,7 @@ vendor                                                   /vendor                
 odm                                                      /odm                      ext4     ro               wait,avb,logical,first_stage_mount,
 product                                                  /product                  ext4     ro               wait,avb,logical,first_stage_mount,
 
-/dev/block/platform/bootdevice/by-name/md_udc            /metadata                 ext4     noatime,nosuid,nodev,discard            wait,check,formattable,first_stage_mount
+/dev/block/platform/bootdevice/by-name/md_udc            /metadata                 ext4     noatime,nosuid,nodev,discard,data=journal,commit=1            wait,check,formattable,first_stage_mount
 /dev/block/platform/bootdevice/by-name/userdata          /data                     f2fs     noatime,nosuid,nodev,discard,flush_merge,reserve_root=134217,resgid=1065,inlinecrypt,alloc_mode=reuse,fsync_mode=nobarrier,checkpoint_merge     latemount,wait,check,quota,reservedsize=128M,formattable,resize,checkpoint=fs,fileencryption=aes-256-xts
 
 /dev/block/platform/bootdevice/by-name/para              /misc                     emmc     defaults               defaults
