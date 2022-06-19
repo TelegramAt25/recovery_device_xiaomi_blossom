@@ -41,6 +41,7 @@ BOARD_KERNEL_CMDLINE += kpti=off
 BOARD_KERNEL_CMDLINE += quiet loglevel=3
 BOARD_KERNEL_CMDLINE += cgroup_disable=pressure
 BOARD_KERNEL_CMDLINE += cgroup.memory=nokmem,nosocket
+BOARD_KERNEL_CMDLINE += nodebugmon
 
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_PAGESIZE := 2048
