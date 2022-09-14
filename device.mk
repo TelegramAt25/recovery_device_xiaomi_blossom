@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.hardware.gatekeeper=beanpod
 
+# HACK: Set vendor patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2099-12-31
+
 # Kernel
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/Image.gz:kernel
