@@ -55,6 +55,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.hardware.kmsetkey=beanpod
 
+# Logging
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.logd.kernel=false
+
 # TEE
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.mtk_microtrust_tee_support=1
