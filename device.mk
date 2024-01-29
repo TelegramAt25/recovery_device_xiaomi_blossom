@@ -60,6 +60,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.hardware.kmsetkey=beanpod
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    keymaster_ver=4.0
+
 # Logging
 PRODUCT_VENDOR_PROPERTIES += \
     ro.logd.kernel=false \
