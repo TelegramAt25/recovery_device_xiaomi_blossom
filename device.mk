@@ -13,6 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Apex
+TW_EXCLUDE_APEX := true
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
