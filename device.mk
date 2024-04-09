@@ -57,7 +57,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Logging
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.logd.kernel=false
+    ro.logd.kernel=false \
+    log.tag=I \
+    persist.log.tag=I
 
 # TEE
 PRODUCT_VENDOR_PROPERTIES += \
