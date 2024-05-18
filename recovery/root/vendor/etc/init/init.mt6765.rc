@@ -46,3 +46,6 @@ on boot
     write /sys/bus/cpu/devices/cpu3/online 0
     write /sys/bus/cpu/devices/cpu6/online 0
     write /sys/bus/cpu/devices/cpu7/online 0
+
+    # kill bootprof
+    write /proc/bootprof "0"
