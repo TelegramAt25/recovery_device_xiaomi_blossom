@@ -26,6 +26,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a53
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := blossom,dandelion,angelica,angelican,cattail,angelicain
+HA_TARGET_DEVICES := dandelion,angelica,angelican,cattail,angelicain,blossom
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := blossom
