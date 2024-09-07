@@ -49,3 +49,6 @@ on boot
 
     # kill bootprof
     write /proc/bootprof "0"
+
+    # symlink toybox to vi
+    symlink /system/bin/toybox /system/bin/vi
