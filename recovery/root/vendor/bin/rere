@@ -1,0 +1,4 @@
+stop teei_daemon
+stop keymaster-4-0-beanpod
+stop gatekeeper-1-0
+pkill recovery
